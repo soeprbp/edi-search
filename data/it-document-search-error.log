@@ -1,0 +1,7 @@
+Timestamp: 2026-03-24 15:35:51
+Message: Exception calling ".ctor" with "0" argument(s): "Operation is not supported on this platform."
+ScriptStackTrace: at <ScriptBlock>, C:\Users\soperbp\OneDrive - Welch Packaging Group\Scripts\workdev\Start-ItDocumentSearch.ps1: line 1137
+Invocation: At C:\Users\soperbp\OneDrive - Welch Packaging Group\Scripts\workdev\Start-ItDocumentSearch.ps1:1137 char:17
++     $listener = New-Object System.Net.HttpListener
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

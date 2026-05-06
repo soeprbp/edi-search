@@ -1,0 +1,11 @@
+# Ignore all project subfolders - they are separate repos
+[!.]*/
+mesinventory/
+mes-inventory/
+CoroMES/
+helpers/
+PerformanceFinder/
+PrinterEmulator/
+App1/
+app2/
+MES/

@@ -1,0 +1,42 @@
+{
+  "tools": [
+    {
+      "id": "edi-search",
+      "name": "EDI Search",
+      "category": "File Search",
+      "description": "Starts the local EDI index and browser search UI for filename, path, and content lookup.",
+      "launchType": "powershell-script",
+      "target": "Start-EdiSearch.ps1",
+      "arguments": [],
+      "workingDirectory": ".",
+      "keepWindowOpen": true,
+      "openInBrowser": false,
+      "url": "http://localhost:8787/"
+    },
+    {
+      "id": "it-document-search",
+      "name": "IT Document Search",
+      "category": "File Search",
+      "description": "Indexes supported document types under I:\\IT and serves a local browser UI for filename, path, content, and extraction warning search.",
+      "launchType": "powershell-script",
+      "target": "Start-ItDocumentSearch.ps1",
+      "arguments": [],
+      "workingDirectory": ".",
+      "keepWindowOpen": true,
+      "openInBrowser": false,
+      "url": "http://localhost:8788/"
+    },
+    {
+      "id": "samanage-incidents",
+      "name": "Assigned Incidents",
+      "category": "Links",
+      "description": "Opens your Welch Samanage assigned incidents report in the browser.",
+      "launchType": "url",
+      "target": "",
+      "arguments": [],
+      "workingDirectory": ".",
+      "openInBrowser": false,
+      "url": "https://welchpkg.samanage.com/incidents?assigned_to=14480681&report_id=8992194&state_is_not%5B%5D=2554217&state_is_not%5B%5D=2554216"
+    }
+  ]
+}

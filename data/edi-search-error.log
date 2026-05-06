@@ -1,0 +1,23 @@
+Timestamp: 2026-04-15 17:04:47
+Message: Exception calling "Start" with "0" argument(s): "Failed to listen on prefix 'http://localhost:8787/' because it conflicts with an existing registration on the machine."
+ScriptStackTrace: at <ScriptBlock>, <No file>: line 880
+Invocation: At line:880 char:5
++     $listener.Start()
++     ~~~~~~~~~~~~~~~~~
+
+Timestamp: 2026-05-04 14:19:04
+Message: Exception calling "Start" with "0" argument(s): "Failed to listen on prefix 'http://localhost:8787/' because it conflicts with an existing registration on the machine."
+ScriptStackTrace: at <ScriptBlock>, C:\Users\soperbp\OneDrive - Welch Packaging Group\Scripts\workdev\Start-EdiSearch.ps1: line 1795
+at <ScriptBlock>, <No file>: line 1
+Invocation: At C:\Users\soperbp\OneDrive - Welch Packaging Group\Scripts\workdev\Start-EdiSearch.ps1:1795 char:5
++     $listener.Start()
++     ~~~~~~~~~~~~~~~~~
+
+Timestamp: 2026-05-04 14:29:23
+Message: Exception calling "Start" with "0" argument(s): "Failed to listen on prefix 'http://localhost:8787/' because it conflicts with an existing registration on the machine."
+ScriptStackTrace: at <ScriptBlock>, C:\Users\soperbp\OneDrive - Welch Packaging Group\Scripts\workdev\Start-EdiSearch.ps1: line 1955
+at <ScriptBlock>, <No file>: line 1
+Invocation: At C:\Users\soperbp\OneDrive - Welch Packaging Group\Scripts\workdev\Start-EdiSearch.ps1:1955 char:13
++             $listener.Start()
++             ~~~~~~~~~~~~~~~~~
+
